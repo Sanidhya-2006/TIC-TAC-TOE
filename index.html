@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="output.css" rel="stylesheet">
+</head>
+<body>
+    <body class="px-4 py-4 bg-[#124559] overflow-hidden">
+            <div class=" flex flex-col w-full h-screen bg-[#124559]">
+                        <h1 class="max-md:text-3xl text-6xl text-center ">Tic Tac Toe</h1>
+                    <div class="flex w-full justify-between">
+                        <h3 class="max-md:text-sm text-xl py-2">Total Games: <span id="gamecount">0</span></h3>
+                        
+                    <ul class="text-start max-md:text-sm text-xl py-2">
+                        <li>X' win:<span id="Xw">0</span></li>
+                        <li>O' win: <span id="Ow">0</span></li>
+                        <li>Draw: <span id="draw">0</span></li>
+                    </ul>
+                    </div>
+                    <div class="flex flex-col items-center  w-full ">
+                        <h2 id="announcement" class="max-md:text-xl text-3xl my-3">X's Chance</h2>
+                        <div class=" grid grid-cols-3 rounded-2xl bg-[#598392] shadow-black shadow-lg gap-1 px-1 py-1">
+                            <button id="0" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                            <button id="1" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                            <button id="2" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                            <button id="3" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                            <button id="4" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                            <button id="5" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                            <button id="6" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                            <button id="7" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                            <button id="8" class="w-20 h-20 max-md:w-12 max-md:h-12   border rounded-xl btn text-5xl max-md:text-3xl shadow-black shadow-md bg-[#aec3b0] hover:bg-[#9cb59e] border-black"></button>
+                           
+                           
+                        </div>
+                        <div>
+                            <button id="rst" class=" my-6 w-[5.2em] max-md:w-fit max-md:px-2 text-2xl max-md:text-sm py-3 mx-4 max-md:mx-1 bg-[#598392]  rounded-lg shadow-md shadow-black">Restart</button>
+                            <button id="newgame" class=" my-6 w-[5.2em] max-md:w-fit max-md:px-2 text-2xl max-md:text-sm py-3 mx-4 max-md:mx-1 bg-[#598392]  rounded-lg shadow-md shadow-black">New Game</button>
+                        </div>
+                    </div>
+            </div>
+    </body>
+    <script src="script.js"></script>
+</body> 
+</html>
